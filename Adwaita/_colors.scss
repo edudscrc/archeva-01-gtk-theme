@@ -2,15 +2,15 @@
 // it gets @if ed depending on $variant
 
 $base_color: #100c12;
-$text_color: #d2cddd;
+$text_color: #c9c8c9;
 
 $caret_color: darken($text_color, 3%);
 
-$bg_color: #2B2031;
-$fg_color: #d2cddd;
+$bg_color: #2a1f2f;
+$fg_color: #c9c8c9;
 
-$selected_fg_color: #100c12;
-$selected_bg_color: darken(#67CC82, 20%);
+$selected_fg_color: #c9c8c9;
+$selected_bg_color: darken(#8d70c1, 20%);
 
 $selected_borders_color: darken($selected_bg_color, 30%);
 $borders_color: darken($bg_color, 10%);
