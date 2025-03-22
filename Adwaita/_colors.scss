@@ -10,7 +10,7 @@ $bg_color: #100c12;
 $fg_color: #c9c8c9;
 
 $selected_fg_color: #c9c8c9;
-$selected_bg_color: darken(#ac7ec8, 20%);
+$selected_bg_color: #ac7ec8;
 
 $selected_borders_color: darken($selected_bg_color, 30%);
 $borders_color: #36293d;
@@ -21,7 +21,7 @@ $link_visited_color: lighten($selected_bg_color, 10%);
 $top_hilight: $borders_edge;
 $dark_fill: mix($borders_color, $bg_color, 50%);
 $headerbar_color: darken($bg_color, 3%);
-$menu_color: mix($bg_color, $base_color, 20%);
+$menu_color: #100c12;
 $popover_bg_color: $bg_color;
 $popover_hover_color: lighten($bg_color, 5%);
 
