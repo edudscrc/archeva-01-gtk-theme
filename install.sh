@@ -7,22 +7,22 @@ cat <<EOL >> "./gtk-contained-dark.css"
 
 box > scrolledwindow .view,
 box > scrolledwindow .view:backdrop {
-  background-color: #100c12;
+  background-color: #12101A;
 }
 
 box > scrolledwindow > treeview .view:selected:focus,
 box > scrolledwindow > treeview .view:selected { 
-  background-color: #ac7ec8; 
-  color: #100c12;
+  background-color: #875CE4; 
+  color: #12101A;
 }
 
 toolitem>widget>box>entry, 
 toolitem>widget>box>entry:backdrop {
-  background-color: #100c12;
+  background-color: #12101A;
 }
 
 .view:selected {
-  color: #100c12;
+  color: #12101A;
 }
 
 EOL

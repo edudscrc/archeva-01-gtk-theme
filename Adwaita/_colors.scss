@@ -1,19 +1,19 @@
 // When color definition differs for dark and light variant
 // it gets @if ed depending on $variant
 
-$base_color: #1d1620;
-$text_color: #c9c8c9;
+$base_color: #1B1823;
+$text_color: #E6E6E6;
 
 $caret_color: darken($text_color, 3%);
 
-$bg_color: #100c12;
-$fg_color: #c9c8c9;
+$bg_color: #12101A;
+$fg_color: #E6E6E6;
 
-$selected_fg_color: #c9c8c9;
-$selected_bg_color: #ac7ec8;
+$selected_fg_color: #E6E6E6;
+$selected_bg_color: #875CE4;
 
 $selected_borders_color: darken($selected_bg_color, 30%);
-$borders_color: #36293d;
+$borders_color: #262330;
 $alt_borders_color: darken($bg_color, 18%);
 $borders_edge: transparentize($fg_color, 0.93);
 $link_color: lighten($selected_bg_color, 20%);
@@ -21,7 +21,7 @@ $link_visited_color: lighten($selected_bg_color, 10%);
 $top_hilight: $borders_edge;
 $dark_fill: mix($borders_color, $bg_color, 50%);
 $headerbar_color: darken($bg_color, 3%);
-$menu_color: #100c12;
+$menu_color: #12101A;
 $popover_bg_color: $bg_color;
 $popover_hover_color: lighten($bg_color, 5%);
 
