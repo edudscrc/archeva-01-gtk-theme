@@ -12,7 +12,7 @@ box > scrolledwindow .view:backdrop {
 
 box > scrolledwindow > treeview .view:selected:focus,
 box > scrolledwindow > treeview .view:selected { 
-  background-color: #A3FF00; 
+  background-color: #66C18C; 
   color: #1A1525;
 }
 
